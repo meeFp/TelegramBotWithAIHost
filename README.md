@@ -63,4 +63,4 @@
       bot.polling()
    ```
 ### Шаг 3: Развертывание на PythonAnywhere
-1.Регистрация на PythonAnywhere.Перейдите на сайт ([PythonAnywhere](https://www.pythonanywhere.com/)) и зарегистрируйтесь для получения учетной записи.
+1.Регистрация на PythonAnywhere.Перейдите на сайт [PythonAnywhere](https://www.pythonanywhere.com/) и зарегистрируйтесь для получения учетной записи.
