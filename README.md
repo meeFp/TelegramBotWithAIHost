@@ -1,4 +1,4 @@
-# Хостинг Telegram-бота на PythonAnywhere
+# Отчет по хостингу Telegram-бота на PythonAnywhere
 
 Этот проект демонстрирует, как развернуть Telegram-бота на платформе PythonAnywhere с использованием Flask для обработки вебхуков и API Groq для генерации ответов. В этом README описано, как развернуть бота на PythonAnywhere и настроить его для взаимодействия с пользователями через Telegram.
 
