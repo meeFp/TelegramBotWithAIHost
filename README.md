@@ -19,6 +19,46 @@
 1. Установите необходимые библиотеки:
    ```bash
    pip install Flask telebot groq
+   ```
 
-
-Скопируйте этот текст в файл `README.md` в корне вашего репозитория на GitHub. Это оформит документацию с полными шагами по развертыванию бота на PythonAnywhere.
+2.Создайте файл app.py с кодом, описанным ниже:
+   ```bash
+      from flask import Flask, request
+      import telebot
+      from groq import Groq
+      import urllib3
+      
+      secret = "a3b41c6d-c795-4145-868e-cb84a9666ac7"
+      
+      bot = telebot.TeleBot("7765446527:AAHEhl8IvQBBZMJi7qps6u5FW5af49VBo-g")
+      bot.delete_webhook()
+      bot.set_webhook(
+          "https://meeFp.pythonanywhere.com/{}".format(secret), max_connections=1
+      )
+      
+      client = Groq(api_key="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")
+      
+      app = Flask(__name__)
+      
+      
+      @app.route("/{}".format(secret), methods=["POST"])
+      def telegram_webhook():
+          update = request.get_json()
+          if "message" in update:
+              chat_id = update["message"]["chat"]["id"]
+              if "text" in update["message"]:
+                  text = update["message"]["text"]
+                  messages = [
+                      {"role": "user", "content": f"{text}. "}
+                  ]
+                  response = client.chat.completions.create(
+                      model="llama3-70b-8192", messages=messages, temperature=0
+                  )
+                  bot.send_message(chat_id, response.choices[0].message.content)
+              else:
+                  bot.send_message(chat_id, "Sorry, I didn't understand that kind of message")
+          return "OK"
+      
+      
+      bot.polling()
+   ```
