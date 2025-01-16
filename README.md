@@ -21,22 +21,22 @@
    pip install Flask telebot groq
    ```
 
-2.Создайте файл app.py с кодом, описанным ниже:
+2.Создайте файл bot.py с кодом, описанным ниже:
    ```bash
       from flask import Flask, request
       import telebot
       from groq import Groq
       import urllib3
       
-      secret = "a3b41c6d-c795-4145-868e-cb84a9666ac7"
+      secret = ""
       
-      bot = telebot.TeleBot("7765446527:AAHEhl8IvQBBZMJi7qps6u5FW5af49VBo-g")
+      bot = telebot.TeleBot("свой API токен")
       bot.delete_webhook()
       bot.set_webhook(
           "https://meeFp.pythonanywhere.com/{}".format(secret), max_connections=1
       )
       
-      client = Groq(api_key="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")
+      client = Groq(api_key="свой API от groq")
       
       app = Flask(__name__)
       
