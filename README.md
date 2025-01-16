@@ -73,6 +73,13 @@
 
 ![image](https://github.com/meeFp/TelegramBotWithAIHost/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(566).png)
 
+![image](https://github.com/meeFp/TelegramBotWithAIHost/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(567).png)
+
+3.Настройка вашего веб-приложения
+В настройках укажите путь к вашему файлу bot.py.
+Убедитесь, что на PythonAnywhere используется правильное виртуальное окружение для вашего проекта.
+
+
 
 
 
