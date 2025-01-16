@@ -90,9 +90,17 @@
 
 ![image](https://github.com/meeFp/TelegramBotWithAIHost/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(572).png)
 
+Выберите flask_app.py
+
 ![image](https://github.com/meeFp/TelegramBotWithAIHost/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(573).png)
 
+В открывшееся окно вставьте код для телеграм-бота 
+
 ![image](https://github.com/meeFp/TelegramBotWithAIHost/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(574).png)
+
+Сохраните и перезапустите код
+
+![image](https://github.com/meeFp/TelegramBotWithAIHost/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(575).png)
 
 
 
