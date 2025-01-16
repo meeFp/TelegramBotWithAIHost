@@ -31,4 +31,4 @@
 - Перейдите на вкладку **Files** на PythonAnywhere.
 - Клонируйте репозиторий с вашим ботом:
   ```bash
-  git clone https://github.com/your_username/your_repository.git
+  git clone https://github.com/meeFp/TelegramBotWithAIHost.git
