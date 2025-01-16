@@ -32,3 +32,14 @@
 - Клонируйте репозиторий с вашим ботом:
   ```bash
   git clone https://github.com/meeFp/TelegramBotWithAIHost.git
+
+### 2. **Подготовка окружения**
+
+#### Установка зависимостей:
+1. Откройте **Bash консоль**:
+   - Перейдите в раздел **Consoles** и выберите `Bash`.
+
+2. Установите необходимые библиотеки:
+   ```bash
+   pip install pyTelegramBotAPI
+   pip install Groq
