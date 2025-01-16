@@ -63,4 +63,11 @@
       bot.polling()
    ```
 ### Шаг 3: Развертывание на PythonAnywhere
-1.Регистрация на PythonAnywhere.Перейдите на сайт [PythonAnywhere](https://www.pythonanywhere.com/) и зарегистрируйтесь для получения учетной записи.
+
+1.Регистрация на PythonAnywhere.
+Перейдите на сайт [PythonAnywhere](https://www.pythonanywhere.com/) и зарегистрируйтесь для получения учетной записи.
+
+2. Создание нового веб-приложения
+В панели управления PythonAnywhere выберите раздел Web и создайте новое веб-приложение.
+При создании выберите Python 3.x (например, Python 3.10).
+
