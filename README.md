@@ -26,13 +26,6 @@
 ---
 
 ## Разворачивание на PythonAnywhere
-
-### 1. Клонирование репозитория
-- Перейдите на вкладку **Files** на PythonAnywhere.
-- Клонируйте репозиторий с вашим ботом:
-  ```bash
-  git clone https://github.com/meeFp/TelegramBotWithAIHost.git
-
 ### 2. **Подготовка окружения**
 
 #### Установка зависимостей:
