@@ -76,7 +76,7 @@
 
 ![image](https://github.com/meeFp/TelegramBotWithAIHost/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(568).png)
 
-При создании выберите Flask
+При создании выберите Flask в качестве фреймворка.
 
 ![image](https://github.com/meeFp/TelegramBotWithAIHost/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(569).png)
 
@@ -102,6 +102,11 @@
 
 ![image](https://github.com/meeFp/TelegramBotWithAIHost/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(575).png)
 
+4.Принцип работы
+В веб-приложении создается путь https://meeFp.pythonanywhere.com/{secret}, который принимает POST-запросы от бота (сообщения пользователей). После этого приложение отправляет запрос в Groq для получения ответа от модели и передает его пользователю.
+Первоначально бесплатный доступ предоставляется на 3 месяца. Для продления срока необходимо зайти в дашборд приложения и нажать кнопку продления.
+
+![image](https://github.com/meeFp/TelegramBotWithAIHost/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(576).png)
 
 
 
